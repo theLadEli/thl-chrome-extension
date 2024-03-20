@@ -5,7 +5,14 @@
     }
 }
 
-@-moz-document url("https://thl.qcontact.com/") {
+@document url("https://thl.qcontact.com/login") {
+
+    body {
+        background: red !important;
+    }
+}
+
+/* @-moz-document url("https://thl.qcontact.com/") {
 
     @media only screen and (max-width: 600px) {
         
@@ -24,4 +31,4 @@
         }
         
     }
-}
+} */
