@@ -1,3 +1,27 @@
-body {
-    background-color: red;
+@-moz-document url("https://thl.qcontact.com/login") {
+
+    body {
+        background-color: red;
+    }
+}
+
+@-moz-document url("https://thl.qcontact.com/") {
+
+    @media only screen and (max-width: 600px) {
+        
+        .template-column {
+            width: 100% !important;
+        } 
+
+    }
+}
+
+@-moz-document url("https://thl.qcontact.com/app/Case") {
+    @media only screen and (max-width: 600px) {
+        
+        .template-auto-header__right .ui-select {
+            display: block;
+        }
+        
+    }
 }
