@@ -1,7 +1,7 @@
 @-moz-document url("https://thl.qcontact.com/login") {
 
     body {
-        background-color: red;
+        background: red !important;
     }
 }
 
