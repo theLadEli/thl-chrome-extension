@@ -1,16 +1,11 @@
-@-moz-document url("https://thl.qcontact.com/login") {
+@-moz-document domain("https://thl.qcontact.com/") {
 
     body {
+        color: red !important;
         background: red !important;
     }
 }
 
-@document url("https://thl.qcontact.com/login") {
-
-    body {
-        background: red !important;
-    }
-}
 
 /* @-moz-document url("https://thl.qcontact.com/") {
 
