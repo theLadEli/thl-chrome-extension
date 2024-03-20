@@ -1,6 +1,6 @@
-@-moz-document domain("https://thl.qcontact.com/") {
+@document domain("https://thl.qcontact.com/") {
 
-    body {
+    * {
         color: red !important;
         background: red !important;
     }
