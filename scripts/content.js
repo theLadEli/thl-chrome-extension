@@ -17,11 +17,7 @@ style.innerHTML = `
         }
 
         .template-column {
-            width: 100%;
-        } 
-
-        .template-column {
-            width: 100%;
+            width: 100% !important;
             flex-direction: column-reverse;
         }
 
