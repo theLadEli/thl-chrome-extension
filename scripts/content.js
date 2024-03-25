@@ -1,24 +1,22 @@
-document.body.style.background = "red";
-// document.getElementsByTagName("p").style.color =  "red"
-// const article = document.querySelector("article");
+var style = document.createElement('style');
+style.type = 'text/css';
+style.innerHTML = `
 
-// // `document.querySelector` may return null if the selector doesn't match anything.
-// if (article) {
-//   const text = article.textContent;
-//   const wordMatchRegExp = /[^\s]+/g; // Regular expression
-//   const words = text.matchAll(wordMatchRegExp);
-//   // matchAll returns an iterator, convert to array to get word count
-//   const wordCount = [...words].length;
-//   const readingTime = Math.round(wordCount / 200);
-//   const badge = document.createElement("p");
-//   // Use the same styling as the publish information in an article's header
-//   badge.classList.add("color-secondary-text", "type--caption");
-//   badge.textContent = `⏱️ ${readingTime} min read`;
+    @media only screen and (max-width: 600px) {
 
-//   // Support for API reference docs
-//   const heading = article.querySelector("h1");
-//   // Support for article docs with date
-//   const date = article.querySelector("time")?.parentNode;
+        .generic-component__content {
+            flex-direction: column;
+        }
 
-//   (date ?? heading).insertAdjacentElement("afterend", badge);
-// }
+        .template-column {
+            width: 100%;
+        } 
+
+        .template-column {
+            width: 100%;
+            flex-direction: column-reverse;
+        }
+
+    }
+`;
+document.getElementsByTagName('head')[0].appendChild(style);

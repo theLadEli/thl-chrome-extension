@@ -17,7 +17,7 @@
       {
         "js": ["scripts/content.js"],
         "matches": [
-          "https://thehelpline.org.uk/*"
+          "https://thl.qcontact.com/*"
         ]
       }
     ]
