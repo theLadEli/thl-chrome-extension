@@ -17,7 +17,8 @@
       {
         "js": ["scripts/content.js"],
         "matches": [
-          "https://thl.qcontact.com/*"
+          "https://thl.qcontact.com/*",
+          "https://thlsandbox.qcontact.com/*"
         ]
       }
     ]
